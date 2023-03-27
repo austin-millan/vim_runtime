@@ -6,7 +6,6 @@ sources_non_forked/tlib/doc/tags
 sources_non_forked/ctrlp.vim/doc/tags*
 
 # Local Configs/Plugins
-my_configs.vim
 local_configs.vim
 local_plug.vim
 

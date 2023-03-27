@@ -1,3 +1,50 @@
+call plug#begin()
+" IDK, but some useful stuff
+" When searching with / , while on search
+    " -> ctrl+g for jump to next
+    " -> ctrl+t for jump to previous
+Plug 'tpope/vim-sensible'
+Plug 'junegunn/seoul256.vim'
+" For providing git integration
+Plug 'tpope/vim-fugitive'
+" For 'surroundings': parentheses, brackets, quotes, XML tags, and more.
+" Plug 'tpope/vim-surround'
+" For getting file explorer :NERDTree
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+" For geting the status line below
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'fatih/vim-go'
+Plug 'junegunn/fzf'
+Plug 'flazz/vim-colorschemes'
+" Plug 'plasticboy/vim-markdown'
+" For getting indent lines in code
+Plug 'yggdroot/indentline'
+Plug 'elzr/vim-json'
+" For searching files Press ctrl+p
+Plug 'ctrlpvim/ctrlp.vim'
+
+" For moving lines and selection up and down
+Plug 'matze/vim-move'
+
+" Icons
+" Plug 'ryanoasis/vim-devicons'
+" Plug 'rodolfoap/vim-grammarous'
+
+"Plug 'terroo/vim-auto-markdown'
+
+" Plug 'https://github.com/sedm0784/vim-you-autocorrect'
+
+" Go
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'dpelle/vim-LanguageTool'
+Plug 'rust-lang/rust.vim'
+Plug 'lervag/vimtex'
+Plug 'simeji/winresizer'
+call plug#end()
+
+
 " vim-you-autocorrect
 "map <C-u> <Plug>VimyouautocorrectUndo
 "map <C-n> <Plug>VimyouautocorrectNext
